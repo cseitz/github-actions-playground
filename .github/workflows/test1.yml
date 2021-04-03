@@ -6,6 +6,6 @@ jobs:
     name: Run Some Commands
     runs-on: ubuntu-latest
     steps:
-      - name: Run ls command
       - uses: actions/checkout@v2
-      - run: ls
+      - name: Run ls command
+        run: ls
