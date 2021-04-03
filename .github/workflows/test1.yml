@@ -1,4 +1,6 @@
 name: Test-Cmd-1
+on:
+  workflow_dispatch:
 jobs:
   run-cmd:
     name: Run Some Commands
