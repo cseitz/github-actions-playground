@@ -1,0 +1,9 @@
+name: Test-Cmd-1
+jobs:
+  run-cmd:
+    name: Run Some Commands
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run ls command
+      - uses: actions/checkout@v2
+      - run: ls
